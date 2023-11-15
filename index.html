@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="wrapper textCenter">
+      <div id="start-screen" class="start">
+        <img src="assets/images/computer.png" alt="image of a coding workspace" />
+        <h1>Coding Quiz</h1>
+        <p>Let's Play!</p>
+        <p>Test your knowledge</p>
+        <button id="start">Play Now</button>
+        <a href="instructions.html"><button id="instructions" class="button2">Instructions</button></a>
+        <div class="scores">
+          <a href="leaderboard.html"><button id="instructions" class="button2">Leaderboard</button></a>
+        </div>
+      </div>
+
+      <div id="questions" class="hide">
+        <div class="quizInfo">
+          <p id="question-number"></p>
+          <div class="timer hide">Time remaining: <span id="time">0</span></div>
+        </div>
+        <div class="progressBar">
+          <div class="progressBarFull"></div>
+        </div>
+        <h2 id="question-title" class="questionTitle"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+
+      <div id="end-screen" class="hide">
+        <h2 class="textCenter">Results</h2>
+        <p id="correct-answers-total" class="textCenter">0</p>
+        <div class="scoreWrap">
+          <p>Your final score is</p>
+          <div class="finalScoreWrap">
+            <p id="final-score" class="textCenter">00</p>
+          </div>
+        </div>
+        <p class="textCenter">
+          <input class="input" type="text" id="initials" maxlength="3" placeholder="Enter your initials here..." />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+
+      <div id="feedback" class="feedback hide"></div>
+    </div>
+
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/logic.js"></script>
+  </body>
+</html>

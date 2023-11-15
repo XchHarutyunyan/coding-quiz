@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+/* VARIABLES */
+:root {
+  --bg-purple: #1f1147;
+  --bglight-purple: #361e70;
+  --btn-purple: #6949fd;
+  --highlight-turqoise: #74eabc;
+  --text-white: #f3edfc;
+  --bg-gold: #fcdb41;
+}
+
+/* || GLOBAL */
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 120%;
+  background-color: var(--bg-purple);
+  color: var(--text-white);
+}
+
+a {
+  color: var(--bglight-purple);
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: var(--btn-purple);
+}
+
+button {
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 100%;
+  background-color: var(--btn-purple);
+  border-radius: 5px;
+  padding: 12px 50px;
+  color: white;
+  border: 0;
+  transition: background-color 0.1s;
+}
+
+button:hover {
+  background-color: var(--highlight-turqoise);
+}
+
+/* Global Classes */
+.textCenter {
+  text-align: center;
+}
+
+.wrapper {
+  margin: 50px auto 0 auto;
+  max-width: 600px;
+}
+
+.hide {
+  display: none;
+}
+
+.button2 {
+  border: 1px solid var(--btn-purple);
+  color: var(--text-white);
+  background-color: var(--bg-purple);
+}
+
+.button2:hover {
+  border: 1px solid var(--btn-purple);
+  color: var(--text-white);
+  background-color: var(--btn-purple);
+}
+
+/* || CUSTOM STYLES */
+
+/* Start Screen */
+.start {
+  padding: 10px;
+}
+
+.start img {
+  width: 90%;
+}
+
+.start h1 {
+  color: var(--highlight-turqoise);
+}
+
+/* Quiz Screen */
+
+.timer {
+  margin-top: 19.2px;
+}
+
+.quizInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progressBar {
+  border: solid 2px var(--highlight-turqoise);
+  height: 20px;
+  width: 100%;
+}
+
+.progressBarFull {
+  background-color: var(--highlight-turqoise);
+  height: 20px;
+  width: 0%;
+}
+
+.choices button {
+  display: block;
+}
+
+.feedback {
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: var(--highlight-turqoise);
+  border-top: 2px solid var(--highlight-turqoise);
+}
+
+/* Results Screen */
+.scoreWrap {
+  background-image: linear-gradient(var(--btn-purple), var(--bglight-purple));
+  height: 40vh;
+  width: 100%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+}
+
+.finalScoreWrap {
+  background-color: var(--bg-gold);
+  border-radius: 100%;
+  height: 125px;
+  width: 125px;
+  color: var(--text-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+}
+
+.input {
+  padding: 7px;
+  background-color: var(--bg-purple);
+  border: var(--btn-purple) 1px solid;
+  margin-bottom: 23.9px;
+  margin-top: 4.7px;
+  border-radius: 2px;
+  color: var(--btn-purple);
+  text-align: center;
+  width: 50%;
+}
+
+::placeholder {
+  color: var(--btn-purple);
+  border-style: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: 2px solid var(--highlight-turqoise);
+  color: var(--btn-purple);
+  text-align: center;
+}
+
+input[type="text"] {
+  font-size: 80%;
+}
+
+/* Leaderboard Screen */
+.leaderboard img {
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+}
+
+ol {
+  padding-left: 0px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+  background-color: var(--bglight-purple);
+  color: var(--text-white);
+}
+
+li:first-child {
+  background-color: var(--bg-gold);
+  color: var(--bg-purple);
+}
+
+/* Instructions Screen */
+.instructions img {
+  width: 20%;
+  display: block;
+  margin: -20px auto;
+}
+
+.instructions p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
