@@ -1,11 +1,11 @@
 <a name="readme-top"></a>
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]{:target="_blank"}
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/XchHarutyunyan/coding-quiz">
+  <a target="_blank" href="https://github.com/XchHarutyunyan/coding-quiz">
     <img src="assets/images/readmelogo.jpg" alt="Logo" width="80" height="80">
   </a>
 
@@ -15,14 +15,14 @@
   In this coding quiz, you will learn about the fundamentals of JavaScript. There are 5 randomly selected multiple-choice questions and you will have a time limit of 50 seconds. The remaining time will determine your score at the end. Make sure you answer all the questions within the timeframe, but keep in mind that you will be penalised by 10 seconds for every incorrect answer!
 
 <br />
-<a href="https://github.com/XchHarutyunyan/coding-quiz"><strong>Explore the docs »</strong></a>
+<a target="_blank" href="https://github.com/XchHarutyunyan/coding-quiz"><strong>Explore the docs »</strong></a>
 <br />
 <br />
-<a href="https://XchHarutyunyan.github.io/coding-quiz/">View Live Deployment</a>
+<a target="_blank" href="https://XchHarutyunyan.github.io/coding-quiz/">View Live Deployment</a>
 ·
-<a href="https://github.com/XchHarutyunyan/coding-quiz/issues">Report Bug</a>
+<a target="_blank" href="https://github.com/XchHarutyunyan/coding-quiz/issues">Report Bug</a>
 ·
-<a href="https://github.com/XchHarutyunyan/coding-quiz/issues">Request Feature</a>
+<a target="_blank" href="https://github.com/XchHarutyunyan/coding-quiz/issues">Request Feature</a>
 
   </p>
 </div>
@@ -66,24 +66,24 @@ Don't forget to give the project a star! Thanks again!
 
 ## Acknowledgments
 
-- [Flat Icon](https://www.flaticon.com/free-icon/podium_548481?related_id=548440&origin=search)
-- [Vector Juice](https://www.freepik.com/author/vectorjuice)
-- [FreePik](https://www.freepik.com/free-vector/question-mark-layered-3d-vector-font_18919699.htm#query=quiz&position=31&from_view=search&track=sph)
-- [appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
-- [Arrow Functions](https://www.w3schools.com/js/js_arrow_function.asp)
-- [Values](https://stackoverflow.com/questions/11563638/how-do-i-get-the-value-of-text-input-field-using-javascript)
-- [Sorting an Array](https://stackoverflow.com/questions/5876424/sort-array-of-objects)
-- [MDN on Web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
-- [Introduction to DOM](https://www.youtube.com/watch?v=-0ZcldkGlt8)
+- [Flat Icon](https://www.flaticon.com/free-icon/podium_548481?related_id=548440&origin=search){:target="_blank"}
+- [Vector Juice](https://www.freepik.com/author/vectorjuice){:target="_blank"}
+- [FreePik](https://www.freepik.com/free-vector/question-mark-layered-3d-vector-font_18919699.htm#query=quiz&position=31&from_view=search&track=sph){:target="_blank"}
+- [appendChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild){:target="_blank"}
+- [Arrow Functions](https://www.w3schools.com/js/js_arrow_function.asp){:target="_blank"}
+- [Values](https://stackoverflow.com/questions/11563638/how-do-i-get-the-value-of-text-input-field-using-javascript){:target="_blank"}
+- [Sorting an Array](https://stackoverflow.com/questions/5876424/sort-array-of-objects){:target="_blank"}
+- [MDN on Web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction){:target="_blank"}
+- [Introduction to DOM](https://www.youtube.com/watch?v=-0ZcldkGlt8){:target="_blank"}
 
-- [What exactly is the DOM](https://bitsofco.de/what-exactly-is-the-dom/)
-- [HTML DOM Navigation Extention](https://chrome.google.com/webstore/detail/html-dom-navigation/eimpgjcahblfpdgiknmbmglcafegimil/)
-- [Introduction to Browser Events](https://javascript.info/introduction-browser-events)
-- [Introduction to DOM events](https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/)
-- [What is an Event Loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
-- [7 Methods that aid DOM Manipulation](https://dev.to/desoga/7-javascript-methods-that-aids-dom-manipulation-kkj)
-- [Introduction to local storage and session storage](https://alligator.io/js/introduction-localstorage-sessionstorage/)
-- [localStorage vs sessionStorage](https://dev.to/caffiendkitten/localstorage-vs-sessionstorage-f9k)
+- [What exactly is the DOM](https://bitsofco.de/what-exactly-is-the-dom/){:target="_blank"}
+- [HTML DOM Navigation Extention](https://chrome.google.com/webstore/detail/html-dom-navigation/eimpgjcahblfpdgiknmbmglcafegimil/){:target="_blank"}
+- [Introduction to Browser Events](https://javascript.info/introduction-browser-events){:target="_blank"}
+- [Introduction to DOM events](https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/){:target="_blank"}
+- [What is an Event Loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ){:target="_blank"}
+- [7 Methods that aid DOM Manipulation](https://dev.to/desoga/7-javascript-methods-that-aids-dom-manipulation-kkj){:target="_blank"}
+- [Introduction to local storage and session storage](https://alligator.io/js/introduction-localstorage-sessionstorage/){:target="_blank"}
+- [localStorage vs sessionStorage](https://dev.to/caffiendkitten/localstorage-vs-sessionstorage-f9k){:target="_blank"}
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
