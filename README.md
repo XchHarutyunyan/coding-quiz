@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-[![LinkedIn][linkedin-shield]][linkedin-url]{:target="_blank"}
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -15,7 +15,7 @@
   In this coding quiz, you will learn about the fundamentals of JavaScript. There are 5 randomly selected multiple-choice questions and you will have a time limit of 50 seconds. The remaining time will determine your score at the end. Make sure you answer all the questions within the timeframe, but keep in mind that you will be penalised by 10 seconds for every incorrect answer!
 
 <br />
-<a target="_blank" href="https://github.com/XchHarutyunyan/coding-quiz"><strong>Explore the docs »</strong></a>
+<a onclick="window.open(this.href); return false;" href="https://github.com/XchHarutyunyan/coding-quiz"><strong>Explore the docs »</strong></a>
 <br />
 <br />
 <a target="_blank" href="https://XchHarutyunyan.github.io/coding-quiz/">View Live Deployment</a>
